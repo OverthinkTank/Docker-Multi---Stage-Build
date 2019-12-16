@@ -5,7 +5,7 @@ import (
   "net/http"
   "os"
 )
-
+# New line added
 func handler(w http.ResponseWriter, r *http.Request) {
   var name, _ = os.Hostname()
 
